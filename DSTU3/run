@@ -1,0 +1,2 @@
+#!/bin/bash
+http-server data --log-ip -p9007
