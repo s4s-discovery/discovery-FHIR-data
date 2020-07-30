@@ -6,7 +6,7 @@ This package sets up a pair of lightweight services to provide demo FHIR bundles
 
 Run the install.sh script:
 
-    `./install.sh`
+`./install.sh`
 
 You must have sudo privileges.
 
