@@ -1,14 +1,20 @@
 # S4S Discovery FHIR Demo Data Providers
 
-This package sets up a pair of lightweight services to provide demo FHIR bundles for the S4S Discovery application.
+The S4S Discovery application consists of the following components:
 
-## Installation
+1. The Discovery Application Server <https://github.com/sync-for-science/discovery>
+2. **The Discovery FHIR Demo Data Providers (this package)** <https://github.com/sync-for-science/discovery-FHIR-data>
+3. The Discovery Data Server <https://github.com/sync-for-science/discovery-data-server>
 
-Run the install.sh script:
+This package sets up two lightweight services to provide demo FHIR bundles for the S4S Discovery application.
+
+All three packages can be installed on the same Linux instance, but the DNS/IP addresses for each component's instance must be known/determined before installation.
+
+## Installation of the Discovery FHIR Demo Data Providers
+
+Run the **install.sh** script (you must have sudo privileges):
 
 `./install.sh`
-
-You must have sudo privileges.
 
 ## Checking Status
 
