@@ -1,7 +1,9 @@
+# Project-wide ignores
+
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # Localized service files
-*.service
+/*.service
 
-# Editor goo
+# Editor backups
 *~
