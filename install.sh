@@ -1,9 +1,10 @@
 #!/bin/bash
 # Discovery FHIR Data installer
-# 20200817/SK
+# 20200821/SK
 
 # Install prerequisites
-sudo apt install npm
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
 sudo npm install http-server -g
 
 # Rewrite DSTU2 service file to reference install dir
