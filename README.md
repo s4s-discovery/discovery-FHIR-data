@@ -20,7 +20,7 @@ Verify the target system is current:
 Clone this repository:
 
     git clone https://github.com/sync-for-science/discovery-FHIR-data
-    cd DiscoveryFHIRData
+    cd discovery-FHIR-data
 
 Run the **install.sh** script (you must have sudo privileges):
 
