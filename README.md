@@ -12,6 +12,16 @@ All three packages can be installed on the same Linux instance, but the DNS/IP a
 
 ## Installation of the Discovery FHIR Demo Data Providers
 
+Verify the target system is current:
+
+    sudo apt update
+    sudo apt upgrade
+
+Clone this repository:
+
+    git clone https://github.com/sync-for-science/discovery-FHIR-data
+    cd discovery`
+
 Run the **install.sh** script (you must have sudo privileges):
 
 `./install.sh`
