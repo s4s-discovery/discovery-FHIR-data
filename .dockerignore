@@ -1,0 +1,10 @@
+# Ignore everything
+**
+
+# Especially ignore:
+.git
+**/node_modules
+
+# Allow files and directories
+!/DSTU2/**
+!/DSTU3/**
